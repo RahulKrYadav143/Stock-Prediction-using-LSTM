@@ -5,8 +5,6 @@ The data considered here is of 2 years for all companies. From (1 Nov,2016) to (
 The list of Companies for which we are downloading the data is stored in csv file in data directory
 as "dow30.csv".
 
-![List of Companies for Analysis](images/companies.PNG)
-
 I have developed the code in following steps:
 (1) I have developed the python file downloader.py in data_fetcher directory which 
     is used to fetch stock data of companies from Yahoo Download API.
@@ -18,10 +16,6 @@ I have developed the code in following steps:
 
 (3) Then I have visualized the data using prepare_data.ipynb notebook and observed the volatility
     distribution and range as shown below.
-
-![Volatility](images/volatility_distribution.PNG)
-
-![Range](images/range.PNG)
 
 (4) model.py is developed after that. This file contains the classes and functions to 
 	build the model, select the best model, select the hyper parameters, predict the output,
